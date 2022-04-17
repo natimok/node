@@ -18,9 +18,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "build-css":"tailwindcss build src/style.css -o public/style.css"
+    "build-css": "tailwindcss build src/style.css -o public/style.css",
+         "start": "node your-script.js"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
   "description": ""
 }
